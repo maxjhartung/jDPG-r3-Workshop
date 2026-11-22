@@ -1,6 +1,12 @@
 # threebody
 
-Kleines Python-Paket für den r3-Workshop: Es simuliert das Dreikörperproblem
+Dieses Repo ist das Beispielprojekt für einen Workshop zu [r3](https://github.com/matthias-k/r3),
+einem Werkzeug, das Rechnungen als unveränderliche Jobs mit festen Abhängigkeiten speichert.
+So weiß man auch Monate später noch, mit welchem Code und welchen Eingaben ein Ergebnis
+entstanden ist. Zum Einstieg in r3:
+[Tutorial](https://kalliope2.matthias-k.org/bethgelab/r3-tutorial/playbook.html).
+
+Das Paket selbst simuliert das Dreikörperproblem
 (Newtonsche Gravitation) mit austauschbaren Integratoren und schreibt die
 Trajektorie in eine Datei. Einzige Abhängigkeit: NumPy.
 
