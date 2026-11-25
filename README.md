@@ -6,6 +6,11 @@ So weiß man auch Monate später noch, mit welchem Code und welchen Eingaben ein
 entstanden ist. Zum Einstieg in r3:
 [Tutorial](https://kalliope2.matthias-k.org/bethgelab/r3-tutorial/playbook.html).
 
+Für den Workshop selbst braucht ihr disen Befehl, um alle r3-tools zu installieren:
+```
+curl -fsSL https://raw.githubusercontent.com/matthias-k/r3-tooling/builder-camp/bootstrap.sh | bash
+```
+
 Das Paket selbst simuliert das Dreikörperproblem
 (Newtonsche Gravitation) mit austauschbaren Integratoren und schreibt die
 Trajektorie in eine Datei. Einzige Abhängigkeit: NumPy.
